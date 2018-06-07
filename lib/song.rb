@@ -1,5 +1,9 @@
 require 'pry'
 
+@@count = 0
+@@artists = []
+@@genres = []
+
 class Song
   attr_accessor :name, :artist, :genre
 
