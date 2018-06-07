@@ -29,4 +29,11 @@ class Song
   def self.genres
     @@genres.uniq
   end
+
+  def genre_count
+  end
+
+  def artist_count
+  end
+
 end
